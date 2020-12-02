@@ -1,0 +1,29 @@
+{
+  "name": "servicobancario",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.5",
+    "events": "^3.1.0",
+    "express": "^4.16.3",
+    "knex": "^0.21.1",
+    "knex-migrate": "^1.7.4",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-sqlite-storage": "^5.0.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation": "^4.3.9",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
