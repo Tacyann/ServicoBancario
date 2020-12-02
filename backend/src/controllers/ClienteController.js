@@ -92,7 +92,6 @@ module.exports = {
             console.log("Não foi possível alterar o cliente!");
             return response.json({ mensagem: "Não foi possível alterar o cliente!" })
         }
-    },
-
+    }
 
 };
